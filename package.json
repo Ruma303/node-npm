@@ -1,0 +1,19 @@
+{
+    "name": "node-npm",
+    "version": "1.0.0",
+    "description": "Lezione su NPM e package.json",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js -e js,ejs,json",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "validator": "13.11.0"
+    },
+    "author": "Ruma",
+    "license": "ISC",
+    "devDependencies": {
+        "debug": "^4.3.4"
+    }
+}
