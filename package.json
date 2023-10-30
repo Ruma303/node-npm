@@ -9,6 +9,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
+        "password-generator": "^2.3.2",
         "validator": "13.11.0"
     },
     "author": "Ruma",
